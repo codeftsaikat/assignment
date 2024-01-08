@@ -1,0 +1,132 @@
+* {
+  margin: 0%;
+}
+
+body {
+  padding: 40px 140px 140px 140px;
+}
+
+.banner {
+  position: relative;
+  border-radius: 17px;
+}
+
+.banner img {
+  max-width: 100%;
+  display: inline-block;
+  opacity: 0.6;
+}
+
+.color {
+  border-radius: 17px;
+  background-color: black;
+}
+
+.first-text {
+  font-family: "Merriweather", serif;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+  line-height: 80px;
+}
+
+#new-year {
+  font-size: 32px;
+  color: #fff;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 400;
+}
+#celebration {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+#parcent {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#holiday {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#catagoris {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.img-1 {
+  width: 802.9px;
+  height: 500px;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.section_three {
+  margin-top: 50px;
+  position: relative;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.section_three img {
+  max-width: 100%;
+  opacity: 0.6;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 65px;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.left-content h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.left-content p {
+  color: white;
+}
+
+.left-content span {
+  color: white;
+  margin-top: 20px;
+}
+
+/* .right-content {
+  width: 50%;
+} */
+
+.right-content img {
+  max-width: 250px;
+  opacity: 1;
+}
