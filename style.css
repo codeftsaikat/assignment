@@ -2,7 +2,7 @@
   margin: 0%;
 }
 
-body {
+main {
   padding: 40px 140px 140px 140px;
 }
 
@@ -42,7 +42,7 @@ body {
 #celebration {
   color: #fff;
   font-family: Merriweather;
-  font-size: 72px;
+  font-size: 68px;
   font-style: normal;
   font-weight: 900;
 }
@@ -55,6 +55,8 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-top: 80px;
+  padding-bottom: 28px;
 }
 
 #holiday {
@@ -75,6 +77,8 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-top: 9px;
+  padding-bottom: 28px;
 }
 
 .img-1 {
@@ -129,4 +133,338 @@ body {
 .right-content img {
   max-width: 250px;
   opacity: 1;
+}
+
+.info {
+  text-align: center;
+  /* padding: 100px 385px 224px 386px; */
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 10px;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  line-height: 35px;
+  font-family: "Inter";
+}
+
+.info p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info p span {
+  color: red;
+}
+
+.join-btn {
+  padding: 10px 25px;
+  border: none;
+  background-color: #f00;
+  color: #fff;
+  border-radius: 7px;
+  font-family: Inter;
+  /* border margin: 64px 609px 126px 608px; */
+}
+#new-offer {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+#come {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-top: 10px;
+  padding-bottom: 16px;
+  /* text-transform: capitalize; */
+}
+#p-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 160% */
+}
+.best offer {
+  text-align: right;
+}
+
+/* .img-el {
+  display: inline-flex;
+} */
+
+.big-div {
+  display: flex;
+  margin: 50px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.best-offer {
+  width: 25%;
+}
+
+.big-div .right-item {
+  width: 25%;
+}
+
+.big-div .right-item img {
+  max-width: 100%;
+}
+#year {
+  color: #f00;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#year-bottom {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 160% */
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+#what {
+  color: #070211;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#holiday {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-right: 8px;
+}
+#sale {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.h-s {
+  /* display: flex; */
+  text-align: center;
+  display: inline-flex;
+}
+#sit {
+  color: rgba(7, 2, 17, 0.6);
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 16px;
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 25px; /* 160% */
+  padding-top: 19px;
+  padding-bottom: 41px;
+}
+#gift {
+  color: #f00;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 80px;
+  padding-bottom: 9px;
+}
+#our {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+#sed {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 160% */
+  padding-top: 12px;
+  padding-bottom: 28px;
+}
+
+.img-el {
+  width: 30%;
+  margin: auto;
+  border: 10px solid red;
+  padding: 30px 0;
+  border-radius: 50%;
+}
+
+.img-el img {
+  max-width: 80%;
+  display: inherit;
+  margin: auto;
+}
+
+.holiday {
+  text-align: center;
+}
+
+.holiday img {
+  max-width: 100%;
+}
+
+.holiday .holiday-images {
+  position: relative;
+}
+
+.holiday .holiday-images div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.holiday .holiday-images div #box {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.holiday .holiday-images div div {
+  display: flex;
+}
+
+.holiday .holiday-images div div #discount {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  right: 250px;
+  top: 80px;
+}
+
+.bottom-images .first {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.bottom-images .second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-images img {
+  max-width: 350px;
+}
+.news-letter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-top: 80px;
+  padding: 40px 40px;
+}
+.news-letter img {
+  height: 120px;
+  font-weight: 120px;
+  margin-bottom: 25px;
+}
+.subscribe {
+  padding-top: 25px;
+}
+#sub {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+#paragraph {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  /* font-weight: 400; */
+  line-height: 22px;
+}
+
+.news-letter input {
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+  border: none;
+  font-size: 15px;
+}
+
+.news-letter button {
+  padding: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  height: 100%;
+  border-radius: 0 20px 20px 0px;
+}
+
+footer {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  max-width: 100%;
+  color: #fff;
+  font-family: Inter;
+}
+
+.last {
+  padding: 40px 140px 0px 140px;
+}
+
+.last .wrap-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+/* .right-form { */
+/* } */
+.call {
+  display: flex;
+}
+.web-01 {
+  display: flex;
+}
+.icon {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.last-item {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
 }
